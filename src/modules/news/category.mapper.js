@@ -4,7 +4,7 @@ module.exports = (category) => {
     SPORTS: "sports",
     EDUCATION: "education",
     HEALTH: "health",
-    ECONOMY: "business",
+    ECONOMY: "business",   
     POLITY: "politics",
     SCIENCE: "science",
     WORLD: "world",
