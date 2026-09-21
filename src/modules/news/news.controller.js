@@ -12,7 +12,7 @@ exports.fetchNews = async (req, res, next) => {
       category,
       search,
       cursor,
-    });
+    });               
 
     res.json({
       hasMore: result.hasMore,
