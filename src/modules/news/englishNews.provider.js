@@ -5,7 +5,7 @@ const extractFullContent = require("../../utils/extractFullContent");
 const parser = new Parser({
   customFields: {
     item: [   
-      ["media:thumbnail", "media:thumbnail"],
+      ["media:thumbnail", "media:thumbnail"],    
       ["media:content", "media:content"],
       ["content:encoded", "content:encoded"],
     ],
