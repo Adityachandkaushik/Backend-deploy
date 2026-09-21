@@ -11,5 +11,5 @@ module.exports = async function fetchRSS(url) {
     },
   });
 
-  return res.data;
+  return res.data;   
 };
