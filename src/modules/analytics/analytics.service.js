@@ -8,7 +8,7 @@ exports.saveAttempt = async ({ type, topic, score, language }) => {
 exports.getReport = async () => {
   const attempts = await Analytics.find();
 
-  const total = attempts.length;
+  const total = attempts.length;     
   const avgScore =
     total === 0
       ? 0
