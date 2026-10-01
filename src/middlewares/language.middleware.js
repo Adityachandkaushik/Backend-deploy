@@ -4,7 +4,7 @@ const {
   DEFAULT_LANGUAGE,
 } = require("../config/language.config");
 
-module.exports = (req, res, next) => {
+module.exports = (req, res, next) => {  
   let lang = req.headers["x-language"];
 
   // normalize
