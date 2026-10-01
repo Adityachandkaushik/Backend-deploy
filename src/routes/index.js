@@ -5,7 +5,7 @@ const { fetchNews } = require("../modules/news/news.controller");
 // backend/src/routes/index.js
 const { getSummary } = require("../modules/ai/summary.controller");
 const { getNotes } = require("../modules/ai/notes.controller");
-// backend/src/routes/index.js
+// backend/src/routes/index.js  
 const practice = require("../modules/practice/practice.controller");
 // backend/src/routes/index.js
 const analytics = require("../modules/analytics/analytics.controller");
