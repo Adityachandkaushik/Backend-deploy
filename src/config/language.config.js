@@ -3,3 +3,4 @@ module.exports = {
   SUPPORTED_LANGUAGES: ["en", "hi"],
   DEFAULT_LANGUAGE: "en",
 };
+    
