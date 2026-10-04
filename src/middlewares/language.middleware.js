@@ -6,7 +6,7 @@ const {
 
 module.exports = (req, res, next) => {  
   let lang = req.headers["x-language"];
-
+     
   // normalize
   if (typeof lang === "string") {
     lang = lang.toLowerCase();
