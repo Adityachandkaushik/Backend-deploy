@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const AnalyticsSchema = new mongoose.Schema({
   type: {
     type: String,
-    enum: ["MCQ", "SUBJECTIVE"],
+    enum: ["MCQ", "SUBJECTIVE"],   
     required: true,
   },
   topic: String,          // derived from category / title
