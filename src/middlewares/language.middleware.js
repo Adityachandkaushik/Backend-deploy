@@ -3,7 +3,7 @@ const {
   SUPPORTED_LANGUAGES,
   DEFAULT_LANGUAGE,
 } = require("../config/language.config");
-
+   
 module.exports = (req, res, next) => {  
   let lang = req.headers["x-language"];
      
