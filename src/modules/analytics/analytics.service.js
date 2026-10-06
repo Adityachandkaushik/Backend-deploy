@@ -4,7 +4,7 @@ const Analytics = require("./analytics.model");
 exports.saveAttempt = async ({ type, topic, score, language }) => {
   return Analytics.create({ type, topic, score, language });
 };
-
+  
 exports.getReport = async () => {
   const attempts = await Analytics.find();
 
