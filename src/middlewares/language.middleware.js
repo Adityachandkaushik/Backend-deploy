@@ -9,7 +9,7 @@ module.exports = (req, res, next) => {
      
   // normalize
   if (typeof lang === "string") {
-    lang = lang.toLowerCase();
+    lang = lang.toLowerCase();   
   }
 
   req.language = SUPPORTED_LANGUAGES.includes(lang)
